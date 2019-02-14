@@ -1,5 +1,5 @@
-baseURL = "http://www.example.com"
-title = "Minimo"
+baseURL = "http://taylorzr.github.io"
+title = "Back and forth"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Minimalist theme for Hugo"
+description = "Pseudorandom thought recorder"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -31,8 +31,8 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "MunifTanjim"
-startYear = "2017"
+holder = "Zach Taylor"
+startYear = "2018"
 suffix = ""
 
 [params.settings]
@@ -59,15 +59,9 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
+email = "taylorzr@gmail.com"
+github = "taylorzr"
+linkedin = "taylorzr"
 
 [params.social.config]
 platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin","telegram","google_scholar"]
@@ -81,10 +75,16 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+name = "home"
+weight = -1
+identifier = "home"
+url = "/"
+
+[[menu.main]]
+name = "til"
+weight = 1
+identifier = "til"
+url = "/tags/til"
 
 [blackfriday]
 hrefTargetBlank = true
