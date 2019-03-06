@@ -1,5 +1,5 @@
 baseURL = "http://taylorzr.github.io"
-title = "Back and forth"
+title = ""
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Pseudorandom thought recorder"
+description = ""
 title404 = "Nothing's here!"
 
 [params.assets]
